@@ -1,6 +1,10 @@
 # emr-dashboard
 Simple react app to manage emr clusters
 
+This project is intended to be consumed by jupyterlab is an in app widget to
+manage emr clusters so easily add compute resources to a notebook kernel
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

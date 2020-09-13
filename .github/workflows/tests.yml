@@ -1,0 +1,12 @@
+name: Run Tests
+on: [push]
+jobs:
+  test:
+    runs-on: [ubuntu-latest]
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2-beta
+      with:
+        node-version: '12'
+    - run: npm install
+    - run: npm test
